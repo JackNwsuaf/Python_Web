@@ -1,7 +1,7 @@
 import socket
 
 target_host="vhacker.me"
-target_port="2015"
+target_port=2015
 
 client=socket.socket(socket.AF_INET6)
 client.connect((target_host,target_port))

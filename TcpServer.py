@@ -1,7 +1,7 @@
 import socket
 
 bind_ip="2402:9e80:0:1000::1:f3db"
-bind_port=9996
+bind_port=2015
 
 server=socket.socket(socket.AF_INET6,socket.SOCK_STREAM)
 server.bind((bind_ip,bind_port))
