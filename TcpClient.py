@@ -1,6 +1,6 @@
 import socket
 
-target_host="2001:250:1002:2466:5cc7:3eb1:28b2:e40"
+target_host="v6.vhacker.me"
 target_port=2015
 
 client=socket.socket(socket.AF_INET6)
