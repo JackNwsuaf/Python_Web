@@ -1,6 +1,6 @@
 import socket
 import threading
-bind_ip="2001:250:1002:2466:5cc7:3eb1:28b2:e40"
+bind_ip="2402:9e80:0:1000::1:f3db"
 bind_port=2015
 
 def handle_client(client_socket):
